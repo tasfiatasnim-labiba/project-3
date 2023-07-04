@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset= "UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+    #myHeader {
+      background-color: rgb(129, 95, 215);
+      color: white;
+      padding: 40px;
+      text-align: center;
+    } 
+    </style>
+<title>Practice</title>
+</head>
+<!--h4 style="font-size: 30px; color:darkblue; text-align: center;">HTML TUTORIAL</h4-->
+<body style="background-color:lightcyan;">
+<!--h2>The id Attribute</h2>
+<p>Use CSS to style an element with the id "myHeader":</p-->
+
+<h1 id="myHeader"><u><i>HTML TUTORIAL</i></u></h1>
+<p style="margin-left: 100px; margin-right: 100px;">Here the background color is <del>navy blue</del> <ins>light cyan</ins>.</p>
+<p style="margin-left: 100px; margin-right: 100px;">The pre tag preserves both spaces and line breaks:</p>
+
+<pre style="margin-left: 100px; margin-right: 100px;">
+   My Bonnie lies over the ocean.
+
+   My Bonnie lies over the sea.
+
+   My Bonnie lies over the ocean.
+   
+   Oh, bring back my Bonnie to me.
+</pre><br>
+<p style="margin-left: 100px; margin-right: 100px;">The chemical formula of Water is H<sub>2</sub>O.</p>
+<p style="margin-left: 100px; margin-right: 100px;"><strong><em>E=mc<sup>2</sup></em></strong> is Einstein's famous formula of mass-energy equivalence.</p>
+<p style="margin-left: 100px; margin-right: 100px;">The <i>RMS Titanic</i>, a luxury steamship, sank on April 15, 1912 after striking an iceberg.</p>
+<hr>
+<!--img src="workplace.jpg" alt="Workplace" usemap="#workmap">
+
+<map name="workmap">
+  <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+  <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+  <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm">
+</map>
+<hr-->
+<h2 style="text-align: center;"><u>HTML Table</u></h2>
+<p><b>A Basic HTML Table.</b></p>
+<style>
+    table, th, td {
+      border:1px solid black;
+    }
+    </style>
+<table>
+    <colgroup>
+        <col span="2" style="background-color: yellowgreen;">
+        <col style="background-color:yellowgreen">
+      </colgroup>
+    <tr>
+      <th>Sl no.</th>
+      <th>Product</th>
+      <th>Price (BDT/kg)</th>
+    </tr>
+    <tr>
+      <td>01.</td>
+      <td>Apple</td>
+      <td>180</td>
+    </tr>
+    <tr>
+      <td>02.</td>
+      <td>Mango</td>
+      <td>160</td>
+    </tr>
+  </table><br>
+  <hr>
+  <h2 style="text-align: center;"><u>HTML Lists</u></h2>
+  <p>Here are some examples of ordered list.</p>
+  <ol>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>Javascript</li>
+  </ol>
+  
+  <p>Here are some examples of unordered list.</p>
+  <ul>
+  <li>Tea</li>
+  <li>Coffee</li>
+  <li>Milk</li>
+  </ul>
+
+  <p>Here are some examples of description list.</p>
+  <dl>
+    <dt>Coffee</dt>
+    <dd>- black hot drink</dd>
+    <dt>Milk</dt>
+    <dd>- white cold drink</dd>
+  </dl><hr>
+
+  <h1 style="text-align: center;"><u>The Template Element</u></h1>
+
+  <p>Click the button below to display the hidden content from the template element.</p>
+  
+  <button onclick="showContent()">Show hidden content</button>
+  
+  <template>
+    <h2>Cherry Blossom</h2>
+    <img src="images/cherryblossom.jpg" width="214" height="204">
+  </template>
+  
+  <script>
+  function showContent() {
+    let temp = document.getElementsByTagName("template")[0];
+    let clon = temp.content.cloneNode(true);
+    document.body.appendChild(clon);
+  }
+  </script>
+  <hr>
+  
+
+  <h1 style="text-align: center;"><u>The summary element</u></h1>
+
+  <details>
+    <summary>Epcot Center</summary>
+    <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+  </details><br>
+ <br><br> 
+<p><b>I hope you liked this content! &#128512;.</b></p><br>
+
+<a href="index.html">Home</a>
+</body>
+</html>
